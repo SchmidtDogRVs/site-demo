@@ -4,7 +4,4 @@ Public static preview (GitHub Pages). No login required.
 
 **Live:** https://schmidtdogrvs.github.io/site-demo/
 
-Includes Paul’s real NRVTA/NRVIA certificate and field photos, plus concept imagery for layout review.
-
-
-_Updated preview._
+Uses Paul’s Fiverr Premium Kit branding (logo, colors `#4380FA` `#BD2826` `#1E1E1F` `#F5EFE1`, Londrina Solid), NRVTA cert, real field photos, and concept imagery.
