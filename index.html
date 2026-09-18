@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trusted RV Solutions — Demo concept</title>
+<style>
+  :root {
+    --ink:#0f172a; --muted:#475569; --line:#e2e8f0;
+    --brand:#0ea5e9; --brand-dark:#0369a1; --sand:#f8fafc; --accent:#f59e0b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+  .banner{background:#fff7ed;border-bottom:1px solid #fed7aa;color:#9a3412;font-size:.85rem;padding:.55rem 0;text-align:center}
+  header{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);z-index:10}
+  .logo{font-weight:800;letter-spacing:-.02em;font-size:1.15rem}
+  .logo span{color:var(--brand-dark)}
+  nav{display:flex;gap:1.1rem;font-size:.95rem;color:var(--muted)}
+  .btn{display:inline-flex;align-items:center;gap:.4rem;background:var(--brand-dark);color:#fff;padding:.7rem 1.1rem;border-radius:.6rem;font-weight:600;border:0;cursor:pointer}
+  .btn.secondary{background:#fff;color:var(--brand-dark);border:1px solid #bae6fd}
+  .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:2rem;padding:2.75rem 0 2rem;align-items:center}
+  .hero h1{font-size:clamp(2rem,4vw,3rem);line-height:1.08;letter-spacing:-.03em;margin:0 0 .75rem}
+  .hero p{color:var(--muted);font-size:1.1rem;margin:0 0 1.25rem}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.75rem}
+  .pill{display:inline-block;background:#e0f2fe;color:#075985;font-size:.8rem;font-weight:600;padding:.25rem .6rem;border-radius:999px;margin-bottom:.75rem}
+  .hero-card{border-radius:1rem;overflow:hidden;box-shadow:0 20px 50px rgba(15,23,42,.15);border:1px solid var(--line)}
+  .hero-card img{width:100%;height:340px;object-fit:cover;display:block}
+  .trust{display:flex;flex-wrap:wrap;gap:1rem;padding:1rem 0 2rem;color:var(--muted);font-size:.92rem}
+  .trust strong{color:var(--ink)}
+  section{padding:2.5rem 0;border-top:1px solid var(--line)}
+  h2{font-size:1.6rem;letter-spacing:-.02em;margin:0 0 1rem}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+  .card{border:1px solid var(--line);border-radius:.9rem;padding:1.1rem;background:var(--sand)}
+  .card h3{margin:.2rem 0 .4rem;font-size:1.05rem}
+  .card p{margin:0;color:var(--muted);font-size:.95rem}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center}
+  .split img{width:100%;border-radius:.9rem;border:1px solid var(--line);object-fit:cover;height:280px}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem}
+  .gallery img{width:100%;height:180px;object-fit:cover;border-radius:.7rem;border:1px solid var(--line)}
+  .lead{background:linear-gradient(135deg,#0c4a6e,#0369a1);color:#fff;border-radius:1.1rem;padding:1.75rem;display:grid;grid-template-columns:1.2fr .8fr;gap:1.25rem}
+  .lead h2{color:#fff;margin-top:0}
+  .lead p{color:#e0f2fe;margin:0 0 1rem}
+  form{display:grid;gap:.6rem}
+  input,select,textarea{width:100%;padding:.7rem .75rem;border-radius:.5rem;border:1px solid #bae6fd;font:inherit}
+  footer{padding:2rem 0;color:var(--muted);font-size:.9rem}
+  @media (max-width:860px){
+    .hero,.split,.lead,.grid,.gallery{grid-template-columns:1fr}
+    nav{display:none}
+    .hero-card img{height:240px}
+  }
+</style>
+</head>
+<body>
+  <div class="banner">Concept demo only — not live. Direction for Trusted RV Solutions (trustedrvs.com).</div>
+  <div class="wrap">
+    <header>
+      <div class="logo">Trusted <span>RV</span> Solutions</div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#trust">Why us</a>
+        <a href="#work">Our work</a>
+        <a href="#request">Request</a>
+      </nav>
+      <a class="btn" href="#request">Request inspection</a>
+    </header>
+
+    <section class="hero" style="border:0;padding-top:2rem">
+      <div>
+        <div class="pill">Mobile RV repair · Inspection · SW Ohio / N. Kentucky / Central Indiana</div>
+        <h1>Certified RV help that shows up ready to work.</h1>
+        <p>Inspections, repairs, dealer warranty support, hauling, and tech installs — booked cleanly, documented clearly, built for owners who want it done right the first time.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#request">Get a quote</a>
+          <a class="btn secondary" href="#services">See services</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/web/00_processed-E54E6B2A-66E7-47D1-902C-D172133175D0.jpg" alt="Trusted RV field work"/>
+      </div>
+    </section>
+
+    <div class="trust">
+      <div><strong>NRVTA certified</strong> inspector</div>
+      <div><strong>“RV HELP”</strong> service provider</div>
+      <div><strong>Jobber-ready</strong> scheduling & follow-up</div>
+      <div><strong>513-200-1313</strong></div>
+    </div>
+
+    <section id="services">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="card"><h3>New & used inspections</h3><p>Pre-purchase and ownership inspections with clear findings — not a vague “looks fine.”</p></div>
+        <div class="card"><h3>Mobile repairs</h3><p>On-site repair for systems that keep you camping: leaks, electrical, appliances, and more.</p></div>
+        <div class="card"><h3>Dealer warranty support</h3><p>Warranty-friendly documentation and process so work doesn’t stall in paperwork.</p></div>
+        <div class="card"><h3>Hauling</h3><p>Move the coach when it needs to be somewhere else — coordinated with the repair plan.</p></div>
+        <div class="card"><h3>Tech installs</h3><p>Upgrades and installs done cleanly, with photos and notes you can trust later.</p></div>
+        <div class="card"><h3>Higher-value focus</h3><p>We prioritize work that’s a strong fit. Some jobs we’ll refer out so you get a better outcome.</p></div>
+      </div>
+    </section>
+
+    <section id="trust">
+      <div class="split">
+        <div>
+          <h2>Trust first — then the booking.</h2>
+          <p style="color:var(--muted)">Paul’s cert and real job photos lead the site. Competitor inspiration (ProRVI, My RV Inspection, RV Inspection Specialists, East Coast RV Inspections): clear services, strong credibility, easy next step.</p>
+          <p style="color:var(--muted);margin-bottom:0">Next layer: short videos / how-tos as a showcase — not a blog graveyard.</p>
+        </div>
+        <img src="assets/web/06_NRVTA_Certs_0009.jpg" alt="NRVTA certification"/>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>From the field</h2>
+      <div class="gallery">
+        <img src="assets/web/01_processed-630FB7C2-B605-49DD-9E50-8252EB0F2F35.jpg" alt=""/>
+        <img src="assets/web/02_processed-9A2ECA97-5C11-45FA-8D25-E34F521B5904.jpg" alt=""/>
+        <img src="assets/web/03_processed-9937224C-BEB6-445D-8F50-37E37D836405.jpg" alt=""/>
+        <img src="assets/web/04_processed-285993D1-6025-460D-BF77-5E501B5C2028.jpg" alt=""/>
+        <img src="assets/web/05_processed-F2E901A0-89AF-4A2D-A694-6A06F7B8036F.jpg" alt=""/>
+        <img src="assets/web/00_processed-E54E6B2A-66E7-47D1-902C-D172133175D0.jpg" alt=""/>
+      </div>
+    </section>
+
+    <section id="request">
+      <div class="lead">
+        <div>
+          <h2>Request service</h2>
+          <p>Simple lead form now → later wires into Jobber. We’ll ask enough to route high-fit work fast (and refer the rest cleanly).</p>
+          <p style="margin:0;font-size:.9rem;color:#bae6fd">Demo form — doesn’t submit anywhere yet.</p>
+        </div>
+        <form onsubmit="event.preventDefault();alert('Demo only — no submit yet.');">
+          <input placeholder="Name" required/>
+          <input placeholder="Phone or email" required/>
+          <select>
+            <option>Inspection</option>
+            <option>Repair</option>
+            <option>Warranty</option>
+            <option>Hauling</option>
+            <option>Tech install</option>
+            <option>Not sure</option>
+          </select>
+          <textarea rows="3" placeholder="What’s going on with the RV?"></textarea>
+          <button class="btn" type="submit" style="justify-content:center;background:#f59e0b;color:#111">Send request</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      Trusted RV Solutions · Fairfield Township, OH · paul@trustedrvs.com · 513-200-1313<br/>
+      Concept mock for internal review — layout inspired by Paul’s template sites + his assets.
+    </footer>
+  </div>
+</body>
+</html>
