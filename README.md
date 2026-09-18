@@ -1,5 +1,7 @@
-# Trusted RV — website concept demo
+# Trusted RV Solutions — website concept demo
 
-Public static demo for Paul / Trusted RV Solutions. No login required via GitHub Pages.
+Public static preview (GitHub Pages). No login required.
 
-Open: https://schmidtdogrvs.github.io/site-demo/
+**Live:** https://schmidtdogrvs.github.io/site-demo/
+
+Includes Paul’s real NRVTA/NRVIA certificate and field photos, plus concept imagery for layout review.
