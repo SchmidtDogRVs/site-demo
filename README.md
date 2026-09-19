@@ -1,7 +1,8 @@
-# Trusted RV Solutions — website concept demo
+# Trusted RV — site-demo (retired)
 
-Public static preview (GitHub Pages). No login required.
+This GitHub Pages demo was **retired on 2026-09-18** after the production site went live.
 
-**Live:** https://schmidtdogrvs.github.io/site-demo/
+**Live site:** https://trustedrvs.com  
+**Worker preview:** https://trusted-rv-web.trustedrvs-bot.workers.dev  
 
-Uses Paul’s Fiverr Premium Kit branding (logo, colors `#4380FA` `#BD2826` `#1E1E1F` `#F5EFE1`, Londrina Solid), NRVTA cert, real field photos, and concept imagery.
+GitHub Pages for this repo has been disabled. Source files may remain for history only — do not treat this URL as customer-facing.
